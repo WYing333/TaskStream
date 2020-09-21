@@ -22,6 +22,10 @@ public class Main {
 
         System.out.println("Total number of deadlines: " + countDeadlines(tasksData));
 
+
+        printDeadlinesUsingStreams(tasksData);
+
+        System.out.println("Total number od deadlines: " + countDeadlinesUSingStreams(tasksData));
     }
 
     private static int countDeadlines(ArrayList<Task> tasksData) {
